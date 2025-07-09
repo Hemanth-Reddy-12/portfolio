@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <div className="px-10">
-      <div className="flex justify-between items-center pt-20">
+      <div className="md:flex justify-between items-center pt-20">
         <div className="text-2xl font-bold">Projects</div>
         <div className="text-sm text-gray-500">
           Here are some of my projects that I have worked on.

@@ -7,7 +7,7 @@ import Projects from "./pages/Projects";
 function App() {
   return (
     <div className="min-h-screen bg-[#0C0C0E] text-white pt-[120px]">
-      <div className="md:w-[1100px] mx-auto h-[80vh]">
+      <div className="md:w-[1100px] md:mx-auto md:h-[80vh] mb-10">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

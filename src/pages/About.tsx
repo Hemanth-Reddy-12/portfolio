@@ -5,9 +5,9 @@ import img from "../assets/Hemanth.jpg";
 const about = () => {
   return (
     <div className="px-10">
-      <div className="intro flex justify-between items-center pt-10">
-        <div className="ProfileIcon flex items-center">
-          <div className="image h-40 w-40 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl">
+      <div className="intro md:flex p-10 justify-between items-center pt-10">
+        <div className="ProfileIcon flex items-center p-10">
+          <div className="image md:h-30 md:w-30 rounded-full overflow-hidden border-white/10 shadow-2xl">
             <img src={img} alt="" />
           </div>
           <div className="name text-xl font-bold ml-4">
@@ -16,7 +16,7 @@ const about = () => {
           </div>
         </div>
         <div className="socialProfile text-sm">
-          <div className="grid grid-cols-2 gap-4 pb-4">
+          <div className="grid md:grid-cols-2  gap-4 pb-4">
             <a href="https://github.com/Hemanth-Reddy-12">
               <div className="github flex gap-2 hover:text-[#B292FF]">
                 <Github size={"20px"} />
@@ -43,7 +43,7 @@ const about = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-10 p-10 mx-10">
+      <div className="grid md:grid-cols-2 gap-10 p-10 mx-10">
         <div className="education">
           <div>
             <div className="text-2xl font-bold underline">Education</div>
