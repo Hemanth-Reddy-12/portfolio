@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.fira-code {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    font-family: "Fira Code", monospace;
+}
+
+.imageWrapper {
+    border-radius: 23% 77% 48% 52% / 71% 30% 70% 29%;
+}
+
+.active {
+    color: #B292FF
+}
