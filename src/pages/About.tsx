@@ -3,6 +3,23 @@ import klLogo from "../assets/kllogo.png";
 import img from "../assets/Hemanth.jpg";
 
 const about = () => {
+  const skill = [
+    "java",
+    "python",
+    "reactjs",
+    "typescript",
+    "html",
+    "css",
+    "tailwindcss",
+    "bootstrap",
+    "expressjs",
+    "nodejs",
+    "mongodb",
+    "sql",
+    "git",
+    "github",
+  ];
+
   return (
     <div className="px-10">
       <div className="intro md:flex p-10 justify-between items-center pt-10">
@@ -61,9 +78,15 @@ const about = () => {
         </div>
         <div className="skills">
           <div className="text-2xl font-bold underline">Skills</div>
-          <div className="text-sm ">
-            java,python,reactjs,typescript html,css,tailwindcss,bootstrap
-            expressjs,nodejs,mongodb,sql,git,github.
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+            {skill.map((item, index) => (
+              <div
+                key={index}
+                className="text-white p-1 bg-white/5 rounded-md text-center"
+              >
+                {item}
+              </div>
+            ))}
           </div>
         </div>
       </div>
